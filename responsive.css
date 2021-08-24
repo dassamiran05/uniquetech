@@ -1,0 +1,386 @@
+@media only screen and (max-width:768px){
+    .header-content .banner-arrow{
+        display: none;
+    }
+
+    section{
+        padding: 90px 0 !important;
+    }
+
+
+    #top{
+        padding: 0 30px;
+    }
+    /* .topheader{
+        padding: 40px 0px;
+    } */
+
+    .menu-bar li{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu-bar li:last-child{
+        margin-bottom: 0;
+    }
+
+    .menu-bar{
+        position: absolute;
+        background-color: #ffc038;
+        height: 100vh;
+        width: 100%;
+        top: -100vh;
+        right: 0;
+        text-align: center;
+        z-index: 2;
+        padding: 30px;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+        position: fixed;
+    }
+
+    .menu-bar li a{
+        font-size: 16px;
+    }
+    
+
+    .mobile-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hero-content, .hero-img{
+        width: 50%;
+    }
+
+    .hero-content h2{
+        font-size: 30px;
+    }
+
+    .hero-content p{
+        font-size: 16px;
+        margin-top: 22px;
+        margin-bottom: 30px;
+        padding-right: 23px;
+    }
+    .hero-img .laptop-img{
+        width: 100%;
+    }
+
+    .mobile-img{
+        display: none;
+    }
+
+    .feature-arrow {
+        position: absolute;
+        right: 148px;
+        top: 125px;
+    }
+
+
+    #what-we-do h1{
+        padding: 20px 59px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    #what-we-do .row img{
+        width: 90%;
+    }
+
+    #what-we-do .row p{
+        margin-top: 15px;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    #what-we-do .row button{
+        padding: 14px 25px;
+        font-size: 13px;
+    }
+
+    .row-1, .row-2, .row-3{
+        padding: 0 30px;
+        margin-top: 120px;
+    }
+
+    .row-1 .col-2, .row-2 .col-1, .row-3 .col-2{
+        padding-right:0;
+    }
+
+    .row-2 .col-1 p{
+        padding-right: 0;
+    }
+
+
+    #how-we-work h1{
+        padding: 20px 29px !important;
+        width: 250px;
+        font-size: 20px;
+        margin-bottom: 120px;
+    }
+
+    #how-we-work .arrow {
+        position: absolute;
+        left: 186px;
+    }
+
+    #how-we-work .work-img img{
+        width: 100%;
+    }
+
+    #our-features h1{
+        padding: 20px 40px;
+        font-size: 20px !important;
+        width: 250px;
+    }
+
+    #our-features .arrow {
+        position: absolute;
+        top: 122px;
+        right: 188px;
+    }
+
+    #our-features .part{
+        padding: 15px;
+        margin-bottom: 12px;
+    }
+
+    #history .his-content{
+        padding: 0 30px;
+    }
+
+    .his-img{
+        padding: 10px;
+        margin-right: 15px; 
+    }
+    
+    .his-img img{
+        width: 100%;
+    }
+
+    .content h1 {
+        padding: 15px 20px !important;
+        width: 200px !important;
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+
+    .content button {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+
+    #team-members h1 {
+        width: 250px;
+        padding: 20px 19px !important;
+        margin-bottom: 90px;
+        font-size: 20px;
+    }
+
+    .team{
+        padding-top: 40px;
+    }
+    
+    .team-part{
+        margin-right: 15px;
+    }
+    
+    .team-part img{
+        margin-bottom: 16px;
+    }
+    
+    .team-content h2{
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+
+
+    #update h1 {
+        width: 250px;
+        margin-bottom: 100px;
+        padding: 20px 21px;
+        font-size: 20px;
+    }
+
+    #update .sec {
+        padding: 0 30px;
+    }
+
+    #update .sec .col-2 img{
+        width:122%;
+    }
+
+    #update .sec p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .sec button {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .footer-content{
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:556px){
+  .hero-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
+
+  .hero-content h2{
+    font-size: 40px;
+  }
+
+  .hero-content p{
+    font-size: 20px;
+  }
+
+  .hero-img{
+      display: none;
+  }
+
+
+  #what-we-do .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  #what-we-do .row .col{
+      display: block;
+      text-align: center;
+      width: 100%;
+  }
+
+  #what-we-do .feature-arrow{
+      display: none;
+  }
+
+  .row-1, .row-2, .row-3{
+      padding: 0 50px;
+      margin-top: 90px;
+    }
+
+    .row-2 .col-1 {
+        padding-left: 0;
+        order: 2;
+    }
+
+    .row-2 .col-2 {
+        margin-top: 10px;
+        order: 1;
+    }
+
+    #what-we-do h3{
+        font-size: 30px;
+    }
+
+    #what-we-do .row p{
+        font-size: 20px;
+    }
+
+    #how-we-work .arrow {
+        display: none;
+    }
+
+    #our-features .arrow {
+        display: none;
+    }
+
+    #our-features h1 {
+        margin-bottom: 90px;
+    }
+
+    #our-features .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #our-features .main-content .col{
+        width: 60%;
+        margin:auto;
+    }
+
+    #our-features .main-content .col .part{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .part h4{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .part p{
+        font-size: 20px;
+    }
+
+    .his-img{
+        display: none;
+    }
+
+    #history .content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #history .content h1{
+        margin: auto;
+    }
+
+    .team .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team-part {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    #update .col-2{
+        display: none;
+    }
+
+    #update .col-1{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #update h1 {
+        margin-bottom: 60px;
+    }
+
+    #hire-us{
+        display: none;
+    }
+}
